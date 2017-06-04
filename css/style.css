@@ -1,0 +1,274 @@
+#main body, html{
+	width:100%;
+	height:100%;
+	font-family: arial,sans-serif;
+	/*background-color:grey;*/
+}
+
+body a{
+	    text-decoration: none;
+}
+
+#header{
+	width:100%;
+	height:74px;
+	background-color: #fafafa;
+	position:relative;
+	padding-top: 15px;
+}
+
+#logo{
+padding-left: 13px;
+padding-right: 10px;
+position:absolute;
+}
+
+.image{
+	width:110px;
+	height:44px;
+}
+
+#search{
+width:660px;
+	margin-left:140px;
+	position:absolute;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.16),
+							0 0 0 1px rgba(0,0,0,0.08);
+}
+ .searchbox{
+	 background-color:white;
+	 width:81%;
+
+	 height:40px;
+	 font-size:medium;
+	 border-style: none;
+	 border-color:grey;
+
+ }
+
+ /* removes textoutling in chrome */
+ textarea:focus, input:focus{
+     outline: none;
+ }
+
+.keyboard{
+	height:15px;
+	margin-left:25px;
+	margin-top:10px;
+}
+.microphone{
+	height:15px;
+	margin-left:10px;
+}
+.magnify{
+	height:15px;
+	margin-left:10px;
+}
+
+
+ /* for the items that are floated right on the top of the page*/
+
+/* sets the distance that the image will be static on the page*/
+ #float-test{
+  min-width: 1000px;
+ }
+
+/* floats the 2 icons to the right of the page */
+#float-icons{
+	float:right;
+}
+
+/* style for the sign in button*/
+.sign-in-button{
+	background-color:#4181EF;
+	border-radius: 3px;
+	color:white;
+	padding:7px;
+	margin-right:20px;
+	font-weight:bold;
+	font-size:0.8em;
+}
+
+.boxicon{
+	height:14px;
+	margin-right:10px;
+}
+
+
+#nav {
+position:relative;
+width:100%;
+height:40px;
+background-color: #fafafa;
+padding-left:140px;
+min-width: 810px;
+}
+
+#nav li {
+display:inline-block;
+padding:10px;
+}
+
+.nav .gray{
+color: #777;
+}
+
+.nav .all{
+	color:blue;
+	 text-decoration: underline;
+	 font-weight:bold;
+}
+
+.settings{
+margin-left:170px;
+}
+.settings a{
+color: #777;
+}
+.tools a{
+color: #777;
+}
+
+#maincontent{
+	position:relative;
+	/*background-color: green;*/
+	width:663px;
+	height:1000px;
+	margin-left:140px;
+	padding-left:10px;
+	padding-top:10px;
+	font-family: arial,sans-serif;
+
+}
+
+/* style for each result for the  main content */
+.content{
+	margin-top:20px;
+}
+/* style for the results and time of search under the navigation links */
+.results{
+	margin-top:5px;
+	color:#808080;
+	font-size:small;
+}
+
+.title{
+	color:#1a0dab;
+	font-size: 17px;
+	line-height: 1.2;
+  font-weight: normal;
+}
+
+.cached{
+	font-size: 14px;
+	color:#006621;
+	font-style: normal;
+	line-height: 16px;
+}
+
+.summary{
+	color:#545454;
+	font-size: small;
+	line-height: 1.4;
+}
+
+
+/* style for the searches at the bottom of the page */
+
+#related-searches{
+	width:400px;
+	margin-top:30px;
+}
+
+.related-heading{
+	color:#222;
+	font-size: 18px;
+line-height: 18px;
+}
+
+#left-link-searches{
+	margin-top:20px;
+	float:left;
+}
+
+#right-link-searches{
+	float:right;
+	margin-top:20px;
+}
+
+/* colour for the links at the bottom of the page */
+#related-searches a{
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#1a0dab;
+}
+
+/* style for the footer */
+#footer{
+background-color:#f2f2f2;
+color:#aaa;
+width:100%
+height:300px;
+clear:both;
+position:relative;
+margin-top:70px;
+padding-top:20px;
+padding-left:145px;
+}
+
+.footer-links li{
+	margin-top:5px;
+	display:inline-block;
+	margin-right:30px;
+}
+
+.footer-links li a{
+	color:#777;
+	line-height: 40px;
+	font-size: small;
+}
+
+#footer p a{
+	color:#777;
+	line-height: 15px;
+}
+
+/* style for the links fpr the main content results */
+
+.content-links li{
+display:inline-block;
+margin-right:5px;
+text-decoration: none;
+font-size: small;
+
+}
+
+.content-links a{
+	color:#1a0dab;
+}
+
+
+/* style for the gooooooogle image and links just before the footer*/
+
+#gooooooogle{
+	position:relative;
+	height:50px;
+	clear:both;
+text-align: center;
+padding:20px;
+ font-size:large;
+}
+
+#gooooooogle-links a{
+    color: #4285f4;
+}
+
+#gooooooogle-links li{
+	clear:both;
+	display:inline-block;
+	padding-left:10px;
+}
+#gooooooogle-links{
+margin-left:50px;
+}
